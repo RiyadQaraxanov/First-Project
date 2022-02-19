@@ -1,0 +1,652 @@
+#body1 {
+    background-image: url(/Images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 675px;
+}
+body{
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#header {
+    margin-top: 0px;
+    text-align: center;
+    border-color: white;
+    font-size: 16px;
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 50px;
+    z-index: 1;
+}
+#header:hover{
+    background-color: rgb(81, 245, 81);
+    transition-duration: .3s;
+    
+}
+#header.active{
+    background-color: rgb(81, 245, 81);
+    transition-duration: .5s;
+    box-shadow: 0px 2px 10px #a5a3a3;
+    opacity: 75%;
+}
+
+#home {
+    font-weight: 900;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-size: 16px;
+    padding-left: 12px;
+    width: 92px;
+    color: #FFF;
+    padding: 16px;
+}
+
+#whatwedo {
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-size: 16px;
+    width: 148px;
+    color: #FFF;
+}
+
+#testimonial {
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-size: 16px;
+    width: 135px;
+    color: #FFF;
+}
+
+#contactus {
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    font-size: 16px;
+    width: 126px;
+    color: #FFF;
+}
+
+#switch {
+    color: white;
+    text-align: center;
+    font-family: 'Nautilus Pompilius', sans-serif;
+    font-size: 24px;
+    padding: auto;
+}
+
+#search {
+    color: wheat;
+    margin-right: 24px;
+    border-radius: 50px;
+    background-color: #FFF;
+    opacity: 50%;
+    margin-bottom: -8px;
+}
+
+#search1 {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 150px;
+    color: #4f4f4f;
+    border-radius: 50px;
+    opacity: 50%;
+    border: none;
+    padding-top: 7px;
+}
+
+#searchbutton {
+    color: white;
+    height: 100%;
+}
+
+#searchbuttonsvg {
+    width: 16px;
+    text-align: center;
+    padding-right: 12px;
+    padding-top: 5px;
+}
+
+#artiseternalhappiness {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#workwithusbutton {
+    margin: auto;
+    margin-top: 48px;
+    background-color: rgb(81, 245, 81);
+    width: 400px;
+    height: 100px;
+    border-radius: 50px;
+    opacity: 75%;
+}
+
+#workwithus {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+#workwithus:hover {
+    font-weight: 700;
+    opacity: 1;
+}
+
+#scroll {
+    margin-left: 621px;
+    margin-top: 176px;
+    width: 124px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    opacity: 75%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#arrow {
+    width: 16px;
+    transform: rotate(90deg);
+    text-align: center;
+    padding-left: 8px;
+}
+
+#scrolldown {
+    text-align: center;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+#body2 {
+    width: 100%;
+}
+
+#WHATWEDO {
+    text-align: center;
+    color: #4f4f4f;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 100px;
+}
+
+.line {
+    width: 25px;
+    height: 1px;
+    text-align: center;
+    color: #4f4f4f;
+    background-color: #4f4f4f;
+    border: none;
+}
+
+.loremphoto {
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.loremipsum {
+    font-size: 12px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    text-align: center;
+    color: #4f4f4f;
+}
+
+.LoremIpsum {
+    font-size: 16px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    color: #4f4f4f;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    height: 30px;
+}
+
+.photoshop {
+    font-size: 14px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    color: #4f4f4f;
+    text-align: center;
+    height: 80px;
+}
+
+.LearnMore {
+    height: 32px;
+}
+html{
+    scroll-behavior: smooth;  
+}
+.LearnMore1 {
+    text-align: center;
+    background-color: rgb(81, 245, 81);
+    height: 24px;
+    padding-top: 8px;
+    width: 100px;
+    border-radius: 50px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    color: #FFF;
+}
+
+#body3 {
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(81, 245, 81);
+}
+
+#OURLATESTWORK {
+    text-align: center;
+    color: #4f4f4f;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+
+#photographytable {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    height: 20px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+#photography {
+    background-color: green;
+    color: #FFF;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#design {
+    font-weight: 100;
+}
+
+#print {
+    font-weight: 100;
+}
+
+#gridphotos {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 50px;
+    grid-column: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.gridphotos {
+    width: 200px;
+}
+
+#viewmorework {
+    text-align: center;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    color: #FFF;
+}
+
+#viewmoreworkarrow {
+    width: 12px;
+    margin: auto;
+    color: #FFF;
+    padding-top: 5px;
+}
+
+#viewmoregroup {
+    height: 100px;
+}
+
+#viewmore {
+    height: 25px;
+    background-color: green;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#testimonials {
+    text-align: center;
+    color: #4f4f4f;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 55px;
+}
+
+#body4 {
+    width: 100%;
+    text-align: center;
+}
+
+.body4text {
+    color: #4f4f4f;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+#body4text {
+    padding-top: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.item1 {
+    grid-area: logo;
+}
+
+.item2 {
+    grid-area: text1;
+    color: #4f4f4f;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+.item3 {
+    grid-area: text2;
+    color: #ccc;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+
+.grid-container {
+    padding-top: 25px;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: 'logo text1' 'logo text2'
+}
+
+#leftarrow {
+    padding-top: 50px;
+}
+
+#leftarrowbox {
+    height: 250px;
+    width: 300px;
+    align-items: center;
+}
+
+#rightarrow {
+    padding-top: 50px;
+}
+
+#rightarrowbox {
+    width: 300px;
+}
+
+#body5 {
+    background-color: #afabab;
+    width: 100%;
+}
+
+#seeallclients {
+    height: 50px;
+}
+
+#seeallclient {
+    text-align: center;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    color: #706f6f;
+}
+
+#seeall {
+    height: 25px;
+    background-color: #4f4f4f;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#seeallclientsarrow {
+    width: 12px;
+    margin: auto;
+    color: #FFF;
+    padding-top: 5px;
+}
+
+.gridphotos2 {
+    width: 200px;
+}
+
+#gridphotos2 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    grid-column: 30px;
+    padding: 70px;
+}
+
+#applelogo {
+    width: 50px;
+    padding-left: 50px;
+}
+#meettheteam{
+
+    text-align: center;
+    color: #4f4f4f;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    
+}
+#body6div{
+    background-color: rgb(81, 245, 81);
+}
+#body6{
+    background-color: rgb(81, 245, 81);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.andrewphoto{
+    padding-top: 20px;   
+}
+.photoline{
+    width: 2px;
+    height: 100px;
+    background-color: green;
+    border: none;
+}
+#photoline{
+    width: auto;
+}
+.andrewtext{
+    color: #fff;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+}
+.twitphotoo{
+    width: 100%;
+}
+#twitphotos{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.twitphoto1{
+    text-align: right;
+}
+.twitphoto2{
+    text-align: center;
+    width: 30px;
+}
+.twitphoto3{
+    text-align: left;
+}
+#workwithusss {
+    height: 50px;
+    padding-top: 25px;
+}
+#workwith {
+    height: 25px;
+    background-color: rgb(81, 245, 81);
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    padding:25px;
+    box-shadow: 0px 5px 5px #4f4f4f;
+}
+#work {
+    text-align: center;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    color: #fff;
+}
+#workwithusarrow {
+    width: 12px;
+    margin: auto;
+    color: #FFF;
+    padding-top: 5px;
+}
+#center{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+}
+#body7{
+    width: 100%;
+    background-color: #4f4f4f;
+}
+#body71{
+    width: 100%;
+}
+.body7div{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.loremipsum5 {
+    font-size: 24px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+.aboutus {
+    text-align: center;
+    color: #fff;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+.line1 {
+    width: 25px;
+    height: 1px;
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    border: none;
+}
+.item11 {
+    grid-area: logo;
+}
+
+.item12 {
+    grid-area: text1;
+    color: #fff;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.item13 {
+    grid-area: text2;
+    color: #fff;
+    padding-top: 9px;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    width: auto;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.grid-containe {
+    padding-top: 25px;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: 'logo text1' 'logo text2'
+}
+#ceo1{
+    background-color: rgb(81, 245, 81);
+    text-align: left;
+    border-radius: 3px;
+}
+#ceo2{
+    background-color: orange;
+    text-align: left;
+    border-radius: 3px;
+}
+#ceo3{
+    background-color: rgb(52, 85, 230);
+    text-align: left;
+    border-radius: 3px;
+}
+#ceo4{
+    background-color: orangered;
+    text-align: left;
+    border-radius: 3px;
+}
+#ceo5{
+    background-color: orange;
+    text-align: left;
+    border-radius: 3px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgb(81, 245, 81);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid rgb(81, 245, 81); }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:rgb(81, 245, 81);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:green; }
+
+#riyad{
+    text-align: center;
+    background-color: #161616;
+    color: #FFF;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
